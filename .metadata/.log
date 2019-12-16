@@ -4927,3 +4927,18 @@ java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquir
 	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4381)
 	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.ui 2 2 2019-12-16 09:34:49.514
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.roo.ui, propertyPage: com.springsource.roo.ui.projectPropertyPage)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-12-16 09:59:41.365
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-12-16 10:00:01.439
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-12-16 10:00:02.700
+!MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.eclipse.jface.text 2 0 2019-12-16 13:30:09.043
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

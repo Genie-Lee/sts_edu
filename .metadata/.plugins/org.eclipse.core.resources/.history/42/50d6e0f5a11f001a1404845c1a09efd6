@@ -1,0 +1,27 @@
+package org.zerock.sample;
+
+import org.springframework.stereotype.Component;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+//import lombok.NonNull;
+//import lombok.RequiredArgsConstructor;
+import lombok.ToString;
+
+@Component
+@ToString
+@Getter
+@AllArgsConstructor
+
+//@RequiredArgsConstructor 특정 변수만 생성자를 작성하고 싶을 때
+public class SampleHotel {
+
+	//@NonNull
+	private Chef chef;
+	
+	/*@AllArgsConstructor가 추가되어 제거
+	 * public SampleHotel(Chef chef) {
+		
+		this.chef = chef;
+	}*/
+}
