@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+=======
 content.descriptors=spring-defaults|https\://dist.springsource.com/release/STS/help/descriptors-3.0.xml\nspring-integration|https\://raw.github.com/SpringSource/spring-integration-templates/master/si-sts-templates/builds/descriptor.xml\nspring-data-gemfire|https\://raw.githubusercontent.com/spring-projects/spring-data-gemfire-sts-templates/master/builds/descriptor.xml\n
+>>>>>>> da183e3c79e1e5955e972e6be319eb84c40c4204
 dashboard.feeds.blogs=https\://spring.io/blog.atom
 eclipse.preferences.version=1
