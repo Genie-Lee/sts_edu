@@ -41,7 +41,19 @@
                                 	<td><fmt:formatDate pattern="yyyy-MM-dd" value="${board.updateDate }"/></td>
                                 </tr>
                                 </c:forEach>
-                            </table>
+                            </table> <!-- table 태그 끝 -->
+                            
+                        <!-- Model 추가 -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        	<div class="modal-dialog">
+                        		<div class="modal-content">
+                        			<div class="modal-header">
+                        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&tmies;</button>
+                        			</div>
+                        		</div>
+                        	</div>
+                        </div>
+                            
                         </div>
                         <!-- end panel-body -->                    
                     </div>
@@ -52,3 +64,13 @@
 
 
 <%@include file="../includes/footer.jsp" %>
+
+<script type="text/javascript">
+
+$(document).ready(function({
+	
+	var result = '<c:out value="${result}"/>';
+	
+}))
+</script>
+
