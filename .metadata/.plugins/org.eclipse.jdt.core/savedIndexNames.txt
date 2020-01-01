@@ -62,5 +62,4 @@ INDEX VERSION 1.131+C:\Users\Genie\Desktop\sts_edu\.metadata\.plugins\org.eclips
 195849615.index
 908566163.index
 3976149841.index
-3867675251.index
 2388212571.index
