@@ -36,7 +36,7 @@
                                 <c:forEach items="${list}" var="board">
                                 <tr>
                                 	<td><c:out value="${board.bno }" /></td>
-                                	<td><a  href='/board/get?bno=<c:out value="${board.bno }"/>'>
+                                	<td><a  class='move' href='<c:out value="${board.bno }"/>'>
                                 	<!-- a태그에 target='_blank' 추가 시 새창으로 띄움-->
                                 	<c:out value="${board.title }" /></a></td>
                                 	<td><c:out value="${board.writer }" /></td>
@@ -136,6 +136,16 @@ $(document).ready(function(){
 		
 		actionForm.find("input[name='pageNum']").val($(this).attr("href"));
 		actionForm.submit();
+	
+	});
+	
+	$(".move").on("click", function(e){
+		
+		e.preventDefault();
+		actionForm.append("<input type='hidden' name='bno' value='"+$(this).attr("href")+"'>");
+		actionForm.attr("action", "/board/get");
+		actionForm.submit();
+	
 	});
 	
 });

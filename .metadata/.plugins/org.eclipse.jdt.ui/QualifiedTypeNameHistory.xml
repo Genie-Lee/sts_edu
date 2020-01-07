@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="org.zerock.domain.TodoDTO"/>
 <fullyQualifiedTypeName name="org.springframework.format.annotation.DateTimeFormat"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
 <fullyQualifiedTypeName name="org.zerock.domain.SampleDTO"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
@@ -58,6 +57,7 @@
 <fullyQualifiedTypeName name="org.springframework.test.web.servlet.request.MockMvcRequestBuilders"/>
 <fullyQualifiedTypeName name="lombok.Getter"/>
 <fullyQualifiedTypeName name="lombok.ToString"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="org.zerock.domain.Criteria"/>
 <fullyQualifiedTypeName name="org.zerock.domain.PageDTO"/>
 </qualifiedTypeNameHistroy>
