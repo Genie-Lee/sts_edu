@@ -23,7 +23,7 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                        	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                        	<table class="table table-striped table-bordered table-hover" >
                             	<thead>
                                 	<tr>
                                     	<th>#번호</th>
@@ -64,6 +64,7 @@
                             	</ul>
                             </div>
                             <!-- end Pagination -->
+						</div>
                             
                             <form id='actionForm' action="/board/list" method='get'>
                             	<input type='hidden' name='pageNum' value = '${pageMaker.cri.pageNum }'>
@@ -98,8 +99,6 @@
             </div>
             <!-- /.row -->
 
-
-<%@include file="../includes/footer.jsp" %>
 
 <script type="text/javascript">
 
@@ -136,8 +135,12 @@ $(document).ready(function(){
 		console.log('click');
 		
 		actionForm.find("input[name='pageNum']").val($(this).attr("href"));
-		actionFrom.submit();
+		actionForm.submit();
 	});
+	
 });
 </script>
+
+<%@include file="../includes/footer.jsp" %>
+
 

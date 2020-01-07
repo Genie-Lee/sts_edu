@@ -21,13 +21,12 @@ public class BoardMapperTests {
 	@Setter(onMethod_ = @Autowired)
 	private BoardMapper mapper;
 	
-	/*
-	@Test
+/*	@Test
 	public void testGetList() {
 		
 		mapper.getList().forEach(board -> log.info(board));
 		
-	}
+	}*/
 	
 	@Test
 	public void testInsert() {
@@ -87,7 +86,7 @@ public class BoardMapperTests {
 		int count = mapper.update(board);
 		log.info("UPDATE COUNT: " + count);
 		
-	}*/
+	}
 	
 	@Test
 	public void testPaging() {
